@@ -1,0 +1,159 @@
+@font-face {
+    font-family: mont;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: pop;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: #443730;
+}
+
+h2{
+    color: white;
+    font-family: mont, serif;
+    font-weight: 600;
+    font-size: 90px;
+    margin-top: 120px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+h3{
+    font-family: mont, serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 6px;
+    margin-bottom: 30px;
+
+}
+
+p{
+    font-family: pop, serif;
+    color:white;
+}
+
+.container{
+    display: flex;
+    width: 1395px;
+    height: 500px;
+    align-items: center;
+}
+
+.food{
+    margin-top: 30px;
+    margin-left: 140px;
+    border: 1px solid white;
+    max-width: 275px;
+    max-height: 950px;
+    
+}
+
+.travel{
+    display: flex;
+    flex: 1;
+    max-width: 289px;
+}
+
+.check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    max-width: 250px;
+    line-height: 35px;
+  }
+
+  .check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  .check:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .check input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .check input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .check .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .checkbox{
+    line-height: 50px;
+  }
+
+  .header{
+    position: sticky;
+    top: 0;
+    background-color: #b08968;
+    max-width: 1950px;
+    max-height: 100px;
+    padding-top: 60px;
+    text-align: center;
+    word-spacing: 30px;
+
+  }
+
+  .header a{
+    color: white;
+    text-decoration: none;
+    font-family: mont, serif;
+    font-size: 25px;
+
+  }
+
+  .sub{
+    padding-bottom: 50px;
+  }
+

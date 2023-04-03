@@ -1,0 +1,65 @@
+@font-face {
+    font-family: mont;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: pop;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+
+body{
+    background-color: #c3a995;
+}
+a{
+    font-family: 'pop', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 10px;
+}
+h1{
+    color: #020826;
+    font-family: 'mont', serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h3{
+    color: #020826;
+    font-family: 'mont', sans-serif;
+    font-weight: 300;
+}
+
+.header{
+    margin-left: 100px;
+    margin-top: 210px;
+    float: left;
+}
+
+.subheader{
+    margin-left: 5px;
+}
+
+.buttons{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 100px;
+    gap: 30px;
+}
+.about, .skill, .resume, .photog, .beat, .film, .bucket{
+    box-sizing: border-box;
+    background-color: #8A7968;
+    color: white;
+    margin: 15px, 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+
+    width: 150px;
+    text-align: center;
+}
+
